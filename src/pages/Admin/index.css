@@ -1,0 +1,16 @@
+.logoarea {
+    display: block;
+    height: 32px;
+    margin: 16px;
+    line-height: 32px;
+    background: rgba(255, 255, 255, 0.3);
+    color: #000;
+    overflow: hidden;
+    font-weight: 700;
+    font-size: 27px;
+    padding: 0 9px;
+}
+
+.site-layout .site-layout-background {
+    background: #fff;
+}

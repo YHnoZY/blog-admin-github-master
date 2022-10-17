@@ -1,0 +1,23 @@
+.ant-table-tbody>tr>td{
+    padding: 11.5px !important;
+}
+.tableintroview{
+    /* height: 150px;
+    max-height: 150px; */
+    width: 100%;
+    /* overflow: auto; */
+    margin-top: 8px;    
+    padding: 5px;
+    color: #666;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    border-radius:3px;
+    cursor: not-allowed;
+}
+.tableintroview h1{
+    font-size: 2em !important;
+}
+.tableintroview img{
+    max-width: 94%;
+    margin: 10px 3%;
+}

@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body #root {
+    height: 100%;
+    width: 100%;
+}
+body p{
+    margin: 0;
+}
+
+
+/* -------------BlogPlat------------ */
+.blogedit{
+    margin-top: 8px;
+}
+.blogedit textarea.ant-input{
+    height: 530px !important;
+}
+.blogview {
+    height: 530px;
+    max-height: 530px;
+    margin-top: 8px;
+    padding: 5px;
+    overflow: auto;
+    color: #666;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    border-radius:3px;
+    cursor: not-allowed;
+}
+.introedit textarea.ant-input{
+    height: 150px !important;
+}
+.introview{
+    height: 150px;
+    max-height: 150px;
+    width: 100%;
+    overflow: auto;
+    margin-top: 8px;    
+    padding: 5px;
+    color: #666;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    border-radius:3px;
+    cursor: not-allowed;
+}
+.blogview h1,.introview h1{
+    font-size: 2em !important;
+}
+.blogview img,.introview img{
+    max-width: 94%;
+    margin: 10px 3%;
+}
+
+
+/* -------------highlight.js样式覆盖---------------- */
+pre {
+    display: block;
+    background-color: #283646 !important;
+    padding: .5rem !important;
+    overflow-y: auto;
+    font-weight: 300;
+    font-family: Menlo, monospace;
+    border-radius: .3rem;
+    margin: 5px 10px;
+}
+
+pre>code {
+    border: 0px !important;
+    background-color: #283646 !important;
+    color: #FFF;
+}
+
+code {
+    display: inline-block;
+    background-color: #f3f3f3;
+    border: 1px solid #283646;
+    border-radius: 3px;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #4f4f4f;
+    margin: 0px 3px;
+}
