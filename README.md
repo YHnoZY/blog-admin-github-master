@@ -1,8 +1,13 @@
 前后分离的博客项目，包含前端页面应用，数据接口中台应用，后台博客管理应用,
+
 此为管理后台应用。
+
 其技术栈如下：React + create-react-app + react-router + axios + marked,
+
 数据库：MySQL,
+
 版本：v1.0,
+
 开源版本更新较慢，网站部署的安全处理已省略.
 
 # Getting Started with Create React App
